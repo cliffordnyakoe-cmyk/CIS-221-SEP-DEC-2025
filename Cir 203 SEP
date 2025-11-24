@@ -1,0 +1,13 @@
+import numpy as np
+
+# 1. Create a 2D array representing transaction volumes
+# 4 branches (rows) × 6 months (columns)
+
+transactions = np.array([
+    [1200, 1350, 1100, 1600, 1450, 1700],   # Branch 1
+    [1500, 1400, 1550, 1300, 1650, 1750],   # Branch 2
+    [1000, 1150, 1200, 1250, 1100, 1400],   # Branch 3
+    [1800, 1750, 1600, 1900, 2000, 2100]    # Branch 4
+])
+
+print("Transactions Array:\n", transactions)
